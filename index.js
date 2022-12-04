@@ -1,9 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if(word.charAt(0) === word.charAt(word.length - 1)){
+    return true
+  }
+  else return false
 }
 
 /* 
   Add your pseudocode here
+  if word equals to word then return true, otherwise return false
 */
 
 /*
